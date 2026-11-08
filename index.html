@@ -127,6 +127,7 @@ h2{font-size:clamp(1.65rem,3vw,2.1rem);font-weight:800;margin-bottom:1.5rem}
 .project ul{grid-column:1/-1;margin:0 0 1rem;padding-left:1.15rem;color:var(--muted)}
 .project li{margin-bottom:.4rem}
 .project li::marker{color:var(--accent)}
+.project-links{grid-column:1/-1;margin-top:1rem}
 .tags{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.45rem}
 .tag{font-family:var(--mono);font-size:.78rem;padding:.28rem .6rem;border-radius:7px;background:var(--accent-soft);color:var(--accent-text)}
 
@@ -311,6 +312,18 @@ footer{padding:2rem 0 0;color:var(--muted);font-size:.9rem}
       <span class="label">// projects</span>
       <h2 id="proj-h">Selected projects</h2>
       <div class="projects">
+        <article class="project">
+          <h3>Two Little Stars</h3>
+          <div class="domain">Personal project · AI-native development &amp; private event management</div>
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 1.7 3.6 4 .6-2.9 2.8.7 4L8 12.1l-3.5 1.9.7-4L2.3 7.2l4-.6L8 3zM18 12l1.1 2.4 2.6.4-1.9 1.8.5 2.6L18 18l-2.3 1.2.5-2.6-1.9-1.8 2.6-.4L18 12z"/></svg></span>
+          <ul>
+            <li>Built and deployed a full-stack family celebration platform on Vercel using an <strong>AI-native, agentic development workflow</strong> with OpenAI Codex and Google Stitch.</li>
+            <li>Directed AI agents through requirements, UI design, implementation, code review and manual/automated QA, validating outputs throughout delivery.</li>
+            <li>Implemented invited-email access, shared family RSVP, organiser attendance reporting, QR/WhatsApp sharing and calendar downloads.</li>
+          </ul>
+          <div class="tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Auth.js</span><span class="tag">MongoDB</span><span class="tag">OpenAI Codex</span><span class="tag">Google Stitch</span><span class="tag">Vercel</span></div>
+          <div class="project-links"><a class="btn btn-accent" href="https://two-little-stars.vercel.app/" target="_blank" rel="noopener noreferrer">View live website <span aria-hidden="true">↗</span></a></div>
+        </article>
         <article class="project">
           <h3>QiKi</h3>
           <div class="domain">Social media, communication &amp; e-commerce</div>
