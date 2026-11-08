@@ -132,6 +132,10 @@ h2{font-size:clamp(1.65rem,3vw,2.1rem);font-weight:800;margin-bottom:1.5rem}
 .tag{font-family:var(--mono);font-size:.78rem;padding:.28rem .6rem;border-radius:7px;background:var(--accent-soft);color:var(--accent-text)}
 
 /* Skills */
+.learning{margin-top:2rem}
+.learning>h3{font-size:1.2rem;font-weight:700;margin-bottom:1rem}
+.learning h4{font-size:1.02rem;font-weight:700;margin-bottom:.5rem}
+.learning p{color:var(--muted);font-size:.93rem}
 .skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
 .skill{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.3rem 1.4rem}
 .skill h3{font-size:1.02rem;font-weight:700;margin-bottom:.8rem;display:flex;align-items:center;gap:.6rem}
@@ -383,6 +387,19 @@ footer{padding:2rem 0 0;color:var(--muted);font-size:.9rem}
         <div class="skill">
           <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Performance &amp; delivery</h3>
           <div class="tags"><span class="tag">Lighthouse</span><span class="tag">React DevTools Profiler</span><span class="tag">CI/CD</span><span class="tag">Agile Delivery</span><span class="tag">Jira</span></div>
+        </div>
+      </div>
+      <div class="learning" aria-labelledby="learning-h">
+        <h3 id="learning-h">Currently learning</h3>
+        <div class="skills">
+          <article class="skill">
+            <h4>Agentic AI</h4>
+            <p>Course in progress</p>
+          </article>
+          <article class="skill">
+            <h4>Amazon Web Services (AWS)</h4>
+            <p>Course in progress</p>
+          </article>
         </div>
       </div>
     </section>
